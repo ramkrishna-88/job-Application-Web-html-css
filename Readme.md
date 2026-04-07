@@ -68,7 +68,7 @@ Job-Application-Form/
 --- 
 <h2><a class="anchor" id="Future Improvements"></a>Future Improvements</h2>
 
-- AAdd form validation (JavaScript)
+- Add form validation (JavaScript)
 - Connect with backend (Node.js / Spring Boot / Django)
 - Store applications in database
 - Add success/error messages
