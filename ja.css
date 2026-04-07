@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:gray
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.apply_box{
+    width: 600px;
+    padding:20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:50px;
+    box-shadow: 5px 3px 5px rgba(14, 13, 13, 0.1);
+    border-radius: 10px;
+}
+.title{
+    font-size: 20px;
+}
+.form_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));/* first and second line is used to alligne the items*/
+    gap: 20px;
+}
+.form_controler{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+    
+}
+input, select,textarea{/*select all the three tags in ope time*/
+    padding: 6px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color:red
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: aqua;
+    border: 2px solid red;
+    color: black;
+    cursor: pointer;
+}
+.textarea_control{
+    grid-column: 1 / span 2;
+}
+.textarea_control textarea{
+    width: 100%;
+}
+@media(max-width:460px){/*this @media is used to contro the grid or box of the application according to the mobile phone*/ 
+    .textarea_control{
+        grid-column: 1 / span 1;
+    }
+};
+
