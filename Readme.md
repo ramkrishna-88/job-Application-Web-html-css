@@ -7,7 +7,6 @@ A simple and responsive Job Application Form built using
 
 This project demonstrates basic form handling, layout structuring, and input fields commonly used in web applications.
 
-
 ---
 ## Table of Contents
 - <a href="#Project Overview">Project Overview</a>
